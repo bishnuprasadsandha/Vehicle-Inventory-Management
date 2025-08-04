@@ -33,8 +33,6 @@ An Android application built using **Kotlin**, following **MVVM architecture**, 
 |-------------|-------------|----------------|
 | ![Home Screen](home.jpg) | ![Add Vehicle](add_vehicle.jpg) | ![Filter Options](filter.jpg) |
 
-> 📁 Place your screenshots inside a `/screenshots` folder in the repo.
-
 ---
 
 ## 🧑‍💻 Project Structure
