@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp"
+    android:background="@android:color/white">
+
+    <!-- Model & Brand -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activa 4G"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Honda"
+            android:textSize="12sp"
+            android:textColor="#888888" />
+    </LinearLayout>
+
+    <!-- Vehicle Number -->
+    <TextView
+        android:id="@+id/tvVehicleNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="KA 01 AA 0007"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#007BFF"
+        android:gravity="center_vertical" />
+
+    <!-- Fuel Type -->
+    <TextView
+        android:id="@+id/tvFuelType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Petrol"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="#000000" />
+
+    <!-- Year + Duration -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 years 6 months"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:gravity="end" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<!-- res/drawable/bg_table_header.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#F1F5F9"/> <!-- Use your desired color here -->
+    <corners android:topLeftRadius="16dp" android:topRightRadius="16dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+</shape>
