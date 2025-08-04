@@ -37,3 +37,35 @@ An Android application built using **Kotlin**, following **MVVM architecture**, 
 
 ## 🧑‍💻 Project Structure
 
+com.example.vehicleinventorymanagement
+│
+├── data
+│ ├── dao
+│ └── model
+│ ├── BrandItem.kt
+│ ├── FilterOption.kt
+│ ├── FuelType.kt
+│ ├── Vehicle.kt
+│ ├── VehicleBrand.kt
+│ └── VehicleModel.kt
+│
+├── repository
+│ ├── FilterRepository.kt
+│ └── VehicleRepository.kt
+│
+├── ui
+│ ├── adapter
+│ │ ├── BrandAdapter.kt
+│ │ ├── FilterOptionAdapter.kt
+│ │ ├── FuelTypeAdapter.kt
+│ │ ├── RadioListAdapter.kt
+│ │ ├── VehicleAdapter.kt
+│ │ ├── VehicleBrandAdapter.kt
+│ │ └── VehicleModelAdapter.kt
+│ └── viewmodel
+│ ├── FilterViewModel.kt
+│ └── VehicleViewModel.kt
+│
+├── AddVehicleActivity.kt
+├── FilterBottomSheet.kt
+└── MainActivity.kt
