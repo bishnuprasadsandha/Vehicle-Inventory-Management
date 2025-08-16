@@ -17,8 +17,8 @@ An Android application built using **Kotlin**, following **MVVM architecture**, 
 
 ## 🛠️ Tech Stack
 
-| Layer         | Tech Used                           |
-|--------------|-------------------------------------|
+| Layer         | Tech Used                          |
+|---------------|------------------------------------|
 | Language      | Kotlin                             |
 | Architecture  | MVVM                               |
 | UI            | Jetpack Compose / XML (whichever you used) |
